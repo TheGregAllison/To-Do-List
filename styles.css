@@ -14,16 +14,18 @@ background: white;
 border-radius: 5px;}
 
 form {
-display: inline-block;
+	display: inline-block;
 }
 
 input{
-padding: 4px 15px 4px 5px;
+	padding: 4px 15px 4px 5px;
+	border-radius: 4px;
+	border-width: 1px;
 }
 
 #button{
 display: inline-block;
-background-color:#fc999b;
+background-color:rgb(74, 192, 167);
 color:#ffffff;
 border-radius: 5px;
 text-align:center;
@@ -35,26 +37,33 @@ padding: 5px 15px;
 cursor: pointer;
 opacity: .8;}
 
-ol {padding-left: 20px;}
+ol {padding-left: 10px;}
 
-ol li {padding: 5px;color:#000;}
+ol li {
+	padding: 5px; 
+	color:#000;
+	border-radius: 5px;
+	margin: 5px 0px;
+}
+ol li:nth-child(even){background: rgb(184, 184, 184);}
 
-ol li:nth-child(even){background: #dfdfdf;}
+ol li:nth-child(odd){background: rgb(227, 227, 227); }
 
 .strike{text-decoration: line-through;}
 
 li:hover{
   cursor: pointer;
+  opacity: 90%;
  }
 
 .delete {
 	display: none;
 }
 
-li > crossOutButton {
+li > deleteButton {
 	background: none;
 	border: none;
 	float: right;
-	color: #025f70;
+	color: #323232;
 	font-weight: 800;
 }
