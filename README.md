@@ -4,4 +4,4 @@ This app is a to-do list that allows the user to add and remove items as needed.
 ## This program is built with HTML5, CSS3, and JavaScript (ES13). This project also uses JQuery v3.7.1.
 
 ## UI Screenshot:
-![To-Do List Screenshot](https://github.com/TheGregAllison/To-Do-List/assets/146021687/cbc092f1-454b-4c1b-b40f-5ddba5b9f7fd)
+<img width="471" alt="Screenshot 2024-02-03 at 11 11 27 PM" src="https://github.com/TheGregAllison/To-Do-List/assets/146021687/f2cb8154-cf73-4d0d-8bda-2fcf0bf4646f">
